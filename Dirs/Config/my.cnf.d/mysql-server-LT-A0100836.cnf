@@ -27,8 +27,7 @@ socket=/var/lib/mysql/mysql.sock
 
 # Secure File Load
 local-infile			= 1
-
-#default_authentication_plugin	= caching_sha2_password
+default_authentication_plugin	= caching_sha2_password
 timezone			= "America/New_York"
 
 # Logging
